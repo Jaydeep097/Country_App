@@ -19,3 +19,19 @@ npm install --save-exact react@rc react-dom@rc
 
 6) npm run dev -- to start project 
 
+
+7) creating router inside app.jsx 
+
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home /> 
+    }
+   <!-- here we make object  -->
+])
+
+then add inside return in the app.jsx RouterProvider 
+
+![alt text](image.png)
+
+
