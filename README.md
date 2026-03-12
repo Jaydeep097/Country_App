@@ -1,11 +1,12 @@
-1) react with vite 
-2) for different type of react icons 
+# Country_App
+
+1) React with Vite
+
+2) For different types of React icons
 npm install react-icons --save
 
-3) koi bhi page refresh nahi hoga one page to another nevigate  
-
+3) Page refresh will not happen while navigating from one page to another
 npm i react-router-dom
 
-4) Axios - geting data of country from Apis
-
+4) Axios for getting country data from APIs
 npm i axios
