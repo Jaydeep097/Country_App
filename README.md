@@ -57,4 +57,13 @@ Then add `RouterProvider` inside the return in `App.jsx`:
 
 ![Router Setup](src/sreenshots/router.png)
 
+### 7.1) Wrap Routes with AppLayout
+
+Wrap the route objects with the `AppLayout` component so shared layout content can be rendered around each page as children.
+
+### 7.2) Add Header and Footer in AppLayout
+
+Render the `Header` and `Footer` components from the `UI` folder inside `AppLayout` so they appear on every page.
+
+![Layout setup](src/sreenshots/layout.png)
 
